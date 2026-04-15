@@ -1,3 +1,4 @@
+
 2.5.4 Pertanyaan Praktikum
 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
 2. Apa yang terjadi jika nilai num lebih dari 15?
@@ -7,7 +8,7 @@ alasanya!
 baris kode nya dalam bentuk README.md!
 
 Jawab:
-1.  <img width="516" height="675" alt="Screenshot 2026-04-13 222135" src="https://github.com/user-attachments/assets/4fc98502-5a3a-4d4f-a257-3b1db34bf0fd" />
+1.  <img width="824" height="640" alt="Rangkaian 2a" src="https://github.com/user-attachments/assets/20515d52-e8ca-4b53-96f9-723de0c43d3a" />
 2.  Programnya akan kebingungan. Di dalam kode hanya menyiapkan daftar pola lampu untuk 16 karakter (angka 0 sampai huruf F). Kalau Arduino diminta membaca data ke-16 atau lebih, dia akan mengambil "sampah memori" (data acak yang tidak jelas). Akibatnya, lampu di Seven Segment akan menyala berantakan, atau mikrokontroler-nya bisa nge-crash.
 3.  Program ini pakai tipe Common Anode (Anoda Umum) karena pada tipe ini, lampu LED baru mau menyala kalau dikasih listrik 0 Volt (atau LOW). Didalam kode, ada tanda seru (!) di perintah !digitPattern[num][i]. Tanda seru ini tugasnya membalikkan perintah: yang tadinya 1 (menyala) diubah jadi 0 (LOW) supaya lampunya benar-benar menyala sesuai tipe Common Anode.
 4.
@@ -69,7 +70,7 @@ penambahan (increment) dan pengurangan (decrement) pada sistem counter dan
 berikan penjelasan disetiap baris kode nya dalam bentuk README.md!
 
 Jawab:
-1. <img width="495" height="659" alt="Screenshot 2026-04-13 222403" src="https://github.com/user-attachments/assets/9c331be8-cdaf-4b23-b303-313e4151f48a" />
+1. <img width="696" height="526" alt="Rangkaian 2b" src="https://github.com/user-attachments/assets/15e88e4c-0255-423c-b8dc-ffa13ab435fd" />
 2. Mode INPUT_PULLUP digunakan karena di dalam otak Arduino sudah ada resistor bawaan. Keuntungannya jadi hemat komponen dan tidak perlu repot merangkai resistor tambahan di breadboard. Selain itu, mode ini menjaga sinyal listrik tetap stabil (tidak naik-turun sendiri karena gangguan dari luar), jadi pembacaan tombolnya lebih akurat.
 3. Bisa jadi dari fisik barangnya (Hardware) atau dari kodenya (Software):
    Hardware: Mungkin kabelnya kendor/putus, resistornya rusak, atau memang lampu LED kecil di dalam angka tersebut sudah putus.
