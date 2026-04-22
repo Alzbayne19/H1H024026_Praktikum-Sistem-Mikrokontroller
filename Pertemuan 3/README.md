@@ -179,4 +179,5 @@ void loop() {
 }
 ```
 4. (tidak akurat, tapi mendekati nilai yang diminta)
-<img width="329" height="186" alt="Screenshot 2026-04-20 231323" src="https://github.com/user-attachments/assets/02e36b20-3e29-4fe6-ae88-9ed3c9cc25ca" />
+<img width="364" height="262" alt="Screenshot 2026-04-22 224842" src="https://github.com/user-attachments/assets/bc7a55a7-82c6-49e6-9786-fe6f19eadb29" />
+
