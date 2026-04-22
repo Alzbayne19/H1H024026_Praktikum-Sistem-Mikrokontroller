@@ -178,6 +178,5 @@ void loop() {
   delay(250); // Delay singkat untuk stabilitas pembacaan dan tampilan [cite: 256]
 }
 ```
-4. (tidak akurat, tapi mendekati nilai yang diminta)
-<img width="364" height="262" alt="Screenshot 2026-04-22 224842" src="https://github.com/user-attachments/assets/bc7a55a7-82c6-49e6-9786-fe6f19eadb29" />
+4. <img width="364" height="262" alt="Screenshot 2026-04-22 224842" src="https://github.com/user-attachments/assets/bc7a55a7-82c6-49e6-9786-fe6f19eadb29" />
 
